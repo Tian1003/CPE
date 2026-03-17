@@ -10,7 +10,7 @@ int main(){
         vector<int> v;
         int MID=0, SUM=0;
         cin >> r;
-        for(int i=0;i<r;i++){
+        for(int i=0;i<r;i++){ 
             cin >> temp;
             v.push_back(temp);
         }
