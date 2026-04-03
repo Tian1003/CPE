@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "C++: 建置並執行目前檔案",
+            "name": "C++: One-Click Debug Active File",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
@@ -15,7 +15,11 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb",
-            "preLaunchTask": "C/C++: clang++ 建置使用中檔案"
+            "preLaunchTask": "C++: Build Active File",
+            "internalConsoleOptions": "neverOpen",
+            "logging": {
+                "engineLogging": false
+            }
         }
     ]
 }
