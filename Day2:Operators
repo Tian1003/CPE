@@ -1,0 +1,28 @@
+#include <iostream>
+#include <iomanip>
+#include <limits>
+#include <string>
+
+using namespace std;
+
+int main() {
+    int i = 4;
+    double d = 4.0;
+    string s = "HackerRank ";
+    int n1;
+    double n2;
+    string n3;
+
+    cin >> n1;
+    cin >> n2;
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    getline(cin, n3);
+    
+    cout << n1 + i << endl;
+    
+    cout << fixed << setprecision(1) << n2 + d << endl;
+    
+    cout << s << n3 << endl;
+
+    return 0;
+}
